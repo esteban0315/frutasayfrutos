@@ -1,0 +1,49 @@
+.sobre{
+    text-align: center;
+}
+
+.sobre__titulo{
+    color:brown;
+    font-family: Pacifico, cursive;
+}
+
+.sobre__descrip{
+    color:#8c8888;
+    font-weight: 100;
+}
+
+@media screen and (min-width:0) {
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sobre{
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (min-width:0) {
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sobre__titulo{
+        font-size: 3.1875rem;
+    }
+}
+
+@media screen and (min-width:0) {
+    .sobre__descrip{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sobre__descrip{
+        font-size: 1.75rem;
+    }
+}
